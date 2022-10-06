@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #fafafa;
+}
+.main {
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+
+  width: 360px;
+}
+.cred,
+.second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+  background-color: white;
+  border: 0.5px solid rgb(229, 221, 221);
+}
+.cred{
+    margin-top: 30px;
+}
+
+.insta {
+  margin-top: 35px;
+  cursor: pointer;
+}
+
+.crendential {
+
+  width: 280px;
+  height: 35px;
+  border-radius: 2px;
+  border: 0.5px solid rgb(229, 221, 221);
+  background:#fafafa;
+  
+  padding: 6px;
+  font-size: 12px;
+  margin-top: 5px;
+  color:rgb(255, 254, 254);
+}
+button{
+    width: 280px;
+  height: 30px;
+  margin-top: 15px;
+  border: none;
+  background-color:rgb(51, 200, 216);
+  opacity: .4;
+  color: white;
+  font: 13px;
+    
+}
+.or{
+    font-family: sans-serif;
+    font-size: 13px;
+    color: rgb(191, 191, 191);
+    
+}
+.or::before{
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 120px;
+    background-color: rgb(191, 191, 191); 
+    margin-top: 5px;
+    margin-left: 26px;
+
+}
+.or::after{
+    content: '';
+    position: absolute;
+    height: 1px ;
+    width: 120px;
+    background-color: rgb(191, 191, 191);
+    margin-top: 5px;
+    margin-left:-150px;
+}
+.loginfacebook{
+    display: flex;
+    flex-direction: row;
+  
+
+}
+.loginfacebook img{
+    width: 15px;
+    height: 16px;
+    margin-top: 14px;
+    
+}
+.loginfacebook a{
+    text-decoration: none;
+    
+}
+.facebook{
+    color: rgba(6, 36, 100, 0.825);
+        font-family: sans-serif;
+        cursor: pointer;
+        margin-left: 5px;
+      font-size: 14px;
+        font-weight: bolder;
+}
+.pswd{
+    color: rgba(6, 36, 100, 0.825);
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.second{
+    margin-top: 8px;
+    font-size: 14px;
+    color: rgb(46, 42, 42);
+    text-align: center;
+    height: 55px;
+
+}
+.second span{
+    color: #03a6eb;
+    font-weight: bold;
+}
+.getApp{
+    text-align: center;
+    color: rgb(46, 42, 42);
+    font-size: 14px;
+    margin-top: 26px;
+
+}
+.bottomImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top:15px;
+    
+}
+.appstore{
+    width: 140px;
+    height: 40px;
+    margin: 5px;
+}
+.googleplay{
+    width: 140px;
+    height: 40px;
+    margin: 5px;
+
+}
